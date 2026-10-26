@@ -1,0 +1,44 @@
+{
+  "Auth Service": {
+    "consecutive_failures": 0,
+    "first_failure": null,
+    "since": "2026-10-24T07:20:41.535Z",
+    "status": "ok",
+    "uptime_breach": false
+  },
+  "Example Site": {
+    "consecutive_failures": 1,
+    "first_failure": "2026-10-24T13:50:53.007Z",
+    "since": "2026-10-24T13:50:53.007Z",
+    "status": "down",
+    "uptime_breach": false
+  },
+  "GitHub API": {
+    "consecutive_failures": 1,
+    "first_failure": "2026-10-24T13:50:52.978Z",
+    "since": "2026-10-24T13:50:52.978Z",
+    "status": "down",
+    "uptime_breach": false
+  },
+  "GitHub Website": {
+    "consecutive_failures": 1,
+    "first_failure": "2026-10-24T13:50:52.951Z",
+    "since": "2026-10-24T13:50:52.951Z",
+    "status": "down",
+    "uptime_breach": false
+  },
+  "Payments API": {
+    "consecutive_failures": 0,
+    "first_failure": null,
+    "since": "2026-10-24T07:20:35.439Z",
+    "status": "ok",
+    "uptime_breach": true
+  },
+  "Web Frontend": {
+    "consecutive_failures": 0,
+    "first_failure": null,
+    "since": "2026-10-24T07:20:45.135Z",
+    "status": "ok",
+    "uptime_breach": true
+  }
+}

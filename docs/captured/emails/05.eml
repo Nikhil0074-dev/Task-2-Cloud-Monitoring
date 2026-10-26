@@ -1,0 +1,16 @@
+Subject: [RECOVERY] Payments API: RECOVERED
+From: uptime-bot@example.com
+To: oncall@example.com
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+MIME-Version: 1.0
+
+[RECOVERY] Payments API: RECOVERED
+Payments API is back UP after 4s of downtime (status=200, 6 ms)
+URL: http://127.0.0.1:32843/svc/payments
+Time: 2026-10-24T07:20:35.439Z
+
+Details:
+  downtime_seconds: 4.107
+  latency_ms: 6.43
+  status_code: 200

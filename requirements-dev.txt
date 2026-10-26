@@ -1,0 +1,4 @@
+-r requirements.txt
+pytest
+playwright  # only needed to regenerate screenshots
+matplotlib

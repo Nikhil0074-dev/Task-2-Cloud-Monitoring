@@ -1,0 +1,14 @@
+Subject: [RECOVERY] Auth Service: RECOVERED
+From: uptime-bot@example.com
+To: oncall@example.com
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+MIME-Version: 1.0
+
+[RECOVERY] Auth Service: RECOVERED
+Auth Service latency back to normal (3 ms)
+URL: http://127.0.0.1:32843/svc/auth
+Time: 2026-10-24T07:20:41.535Z
+
+Details:
+  latency_ms: 3.07

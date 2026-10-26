@@ -1,0 +1,18 @@
+Subject: [CRITICAL] Payments API: DOWN
+From: uptime-bot@example.com
+To: oncall@example.com
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+[CRITICAL] Payments API: DOWN
+Payments API is DOWN: Unexpected status 503 (expected [200]) (status=3D503, 1=
+ consecutive failed check(s))
+URL: http://127.0.0.1:32843/svc/payments
+Time: 2026-10-24T07:20:31.332Z
+
+Details:
+  consecutive_failures: 1
+  error: Unexpected status 503 (expected [200])
+  latency_ms: 4.02
+  status_code: 503

@@ -1,0 +1,16 @@
+Subject: [WARNING] Payments API: UPTIME_LOW
+From: uptime-bot@example.com
+To: oncall@example.com
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+MIME-Version: 1.0
+
+[WARNING] Payments API: UPTIME_LOW
+Payments API uptime 92.31% over the last 13 checks is below the minimum of 95%
+URL: http://127.0.0.1:32843/svc/payments
+Time: 2026-10-24T07:20:31.332Z
+
+Details:
+  threshold_percent: 95
+  uptime_percent: 92.31
+  window: 13

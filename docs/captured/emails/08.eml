@@ -1,0 +1,20 @@
+Subject: [CRITICAL] Web Frontend: DOWN
+From: uptime-bot@example.com
+To: oncall@example.com
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+[CRITICAL] Web Frontend: DOWN
+Web Frontend is DOWN: ConnectionError: ('Connection aborted.', RemoteDisconne=
+cted('Remote end closed connection without response')) (status=3Dn/a, 1 conse=
+cutive failed check(s))
+URL: http://127.0.0.1:32843/svc/web
+Time: 2026-10-24T07:20:43.082Z
+
+Details:
+  consecutive_failures: 1
+  error: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote =
+end closed connection without response'))
+  latency_ms: 4.3
+  status_code: None

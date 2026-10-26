@@ -1,0 +1,15 @@
+Subject: [CRITICAL] Auth Service: SLOW_CRITICAL
+From: uptime-bot@example.com
+To: oncall@example.com
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+MIME-Version: 1.0
+
+[CRITICAL] Auth Service: SLOW_CRITICAL
+Auth Service latency 1007 ms exceeded the critical threshold of 800 ms
+URL: http://127.0.0.1:32843/svc/auth
+Time: 2026-10-24T07:20:36.986Z
+
+Details:
+  latency_ms: 1006.72
+  threshold_ms: 800

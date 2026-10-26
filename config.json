@@ -1,0 +1,49 @@
+{
+  "interval_seconds": 300,
+  "timeout_seconds": 10,
+
+  "thresholds": {
+    "latency_warning_ms": 800,
+    "latency_critical_ms": 2000,
+    "consecutive_failures": 1,
+    "uptime_min_percent": 99.0,
+    "uptime_window_checks": 100,
+    "uptime_min_checks": 10
+  },
+
+  "alerts": {
+    "console": true,
+    "webhook": {
+      "enabled": true,
+      "url": "",
+      "url_env": "ALERT_WEBHOOK_URL",
+      "attempts": 2
+    },
+    "email": {
+      "enabled": false,
+      "smtp_host": "smtp.gmail.com",
+      "smtp_port": 587,
+      "use_tls": true,
+      "from": "alerts@example.com",
+      "to": ["oncall@example.com"],
+      "username_env": "SMTP_USERNAME",
+      "password_env": "SMTP_PASSWORD"
+    }
+  },
+
+  "storage": {
+    "csv": "data/uptime_log.csv",
+    "state": "data/state.json",
+    "log_file": "logs/monitor.log",
+    "reports_dir": "reports",
+    "retention_days": 30
+  },
+
+  "endpoints": [
+    {"name": "GitHub Website", "url": "https://github.com", "expected_status": 200},
+    {"name": "GitHub API", "url": "https://api.github.com", "expected_status": 200,
+     "thresholds": {"latency_warning_ms": 600, "latency_critical_ms": 1500}},
+    {"name": "Example Site", "url": "https://example.com", "expected_status": 200,
+     "expected_text": "Example Domain"}
+  ]
+}

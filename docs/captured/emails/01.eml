@@ -1,0 +1,15 @@
+Subject: [WARNING] Auth Service: SLOW_WARNING
+From: uptime-bot@example.com
+To: oncall@example.com
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+MIME-Version: 1.0
+
+[WARNING] Auth Service: SLOW_WARNING
+Auth Service latency 403 ms exceeded the warning threshold of 300 ms
+URL: http://127.0.0.1:32843/svc/auth
+Time: 2026-10-24T07:20:28.472Z
+
+Details:
+  latency_ms: 402.77
+  threshold_ms: 300

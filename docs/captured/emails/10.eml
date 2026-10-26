@@ -1,0 +1,16 @@
+Subject: [RECOVERY] Web Frontend: RECOVERED
+From: uptime-bot@example.com
+To: oncall@example.com
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+MIME-Version: 1.0
+
+[RECOVERY] Web Frontend: RECOVERED
+Web Frontend is back UP after 2s of downtime (status=200, 8 ms)
+URL: http://127.0.0.1:32843/svc/web
+Time: 2026-10-24T07:20:45.135Z
+
+Details:
+  downtime_seconds: 2.053
+  latency_ms: 8.27
+  status_code: 200

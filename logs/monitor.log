@@ -1,0 +1,219 @@
+2026-10-24T07:20:24Z INFO    check name="Web Frontend" status=200 latency_ms=6.88 result=UP
+2026-10-24T07:20:24Z INFO    check name="Payments API" status=200 latency_ms=4.59 result=UP
+2026-10-24T07:20:24Z INFO    check name="Auth Service" status=200 latency_ms=3.58 result=UP
+2026-10-24T07:20:24Z INFO    run complete checks=3 up=3 down=0 alerts=0
+2026-10-24T07:20:24Z INFO    check name="Web Frontend" status=200 latency_ms=6.71 result=UP
+2026-10-24T07:20:24Z INFO    check name="Payments API" status=200 latency_ms=5.48 result=UP
+2026-10-24T07:20:24Z INFO    check name="Auth Service" status=200 latency_ms=4.11 result=UP
+2026-10-24T07:20:24Z INFO    run complete checks=3 up=3 down=0 alerts=0
+2026-10-24T07:20:25Z INFO    check name="Web Frontend" status=200 latency_ms=5.54 result=UP
+2026-10-24T07:20:25Z INFO    check name="Payments API" status=200 latency_ms=6.48 result=UP
+2026-10-24T07:20:25Z INFO    check name="Auth Service" status=200 latency_ms=3.46 result=UP
+2026-10-24T07:20:25Z INFO    run complete checks=3 up=3 down=0 alerts=0
+2026-10-24T07:20:25Z INFO    check name="Web Frontend" status=200 latency_ms=6.06 result=UP
+2026-10-24T07:20:25Z INFO    check name="Payments API" status=200 latency_ms=5.53 result=UP
+2026-10-24T07:20:25Z INFO    check name="Auth Service" status=200 latency_ms=5.64 result=UP
+2026-10-24T07:20:25Z INFO    run complete checks=3 up=3 down=0 alerts=0
+2026-10-24T07:20:26Z INFO    check name="Web Frontend" status=200 latency_ms=4.86 result=UP
+2026-10-24T07:20:26Z INFO    check name="Payments API" status=200 latency_ms=3.08 result=UP
+2026-10-24T07:20:26Z INFO    check name="Auth Service" status=200 latency_ms=3.09 result=UP
+2026-10-24T07:20:26Z INFO    run complete checks=3 up=3 down=0 alerts=0
+2026-10-24T07:20:26Z INFO    check name="Web Frontend" status=200 latency_ms=4.73 result=UP
+2026-10-24T07:20:26Z INFO    check name="Payments API" status=200 latency_ms=3.05 result=UP
+2026-10-24T07:20:26Z INFO    check name="Auth Service" status=200 latency_ms=2.91 result=UP
+2026-10-24T07:20:26Z INFO    run complete checks=3 up=3 down=0 alerts=0
+2026-10-24T07:20:27Z INFO    check name="Web Frontend" status=200 latency_ms=4.25 result=UP
+2026-10-24T07:20:27Z INFO    check name="Payments API" status=200 latency_ms=3.44 result=UP
+2026-10-24T07:20:27Z INFO    check name="Auth Service" status=200 latency_ms=3.02 result=UP
+2026-10-24T07:20:27Z INFO    run complete checks=3 up=3 down=0 alerts=0
+2026-10-24T07:20:27Z INFO    check name="Web Frontend" status=200 latency_ms=4.65 result=UP
+2026-10-24T07:20:27Z INFO    check name="Payments API" status=200 latency_ms=3.26 result=UP
+2026-10-24T07:20:27Z INFO    check name="Auth Service" status=200 latency_ms=3.31 result=UP
+2026-10-24T07:20:27Z INFO    run complete checks=3 up=3 down=0 alerts=0
+2026-10-24T07:20:28Z WARNING [demo] injecting fault: auth -> slow 400
+2026-10-24T07:20:28Z INFO    check name="Web Frontend" status=200 latency_ms=5.37 result=UP
+2026-10-24T07:20:28Z INFO    check name="Payments API" status=200 latency_ms=3.73 result=UP
+2026-10-24T07:20:28Z INFO    check name="Auth Service" status=200 latency_ms=402.77 result=UP
+2026-10-24T07:20:28Z WARNING alert severity=WARNING kind=SLOW_WARNING endpoint="Auth Service" msg="Auth Service latency 403 ms exceeded the warning threshold of 300 ms"
+2026-10-24T07:20:28Z INFO    run complete checks=3 up=3 down=0 alerts=1
+2026-10-24T07:20:29Z INFO    check name="Web Frontend" status=200 latency_ms=5.03 result=UP
+2026-10-24T07:20:29Z INFO    check name="Payments API" status=200 latency_ms=4.30 result=UP
+2026-10-24T07:20:29Z INFO    check name="Auth Service" status=200 latency_ms=405.42 result=UP
+2026-10-24T07:20:29Z INFO    run complete checks=3 up=3 down=0 alerts=0
+2026-10-24T07:20:30Z INFO    [demo] fault cleared: auth
+2026-10-24T07:20:30Z INFO    check name="Web Frontend" status=200 latency_ms=4.92 result=UP
+2026-10-24T07:20:30Z INFO    check name="Payments API" status=200 latency_ms=3.07 result=UP
+2026-10-24T07:20:30Z INFO    check name="Auth Service" status=200 latency_ms=3.33 result=UP
+2026-10-24T07:20:30Z INFO    alert severity=RECOVERY kind=RECOVERED endpoint="Auth Service" msg="Auth Service latency back to normal (3 ms)"
+2026-10-24T07:20:30Z INFO    run complete checks=3 up=3 down=0 alerts=1
+2026-10-24T07:20:30Z INFO    check name="Web Frontend" status=200 latency_ms=8.29 result=UP
+2026-10-24T07:20:30Z INFO    check name="Payments API" status=200 latency_ms=7.15 result=UP
+2026-10-24T07:20:30Z INFO    check name="Auth Service" status=200 latency_ms=3.90 result=UP
+2026-10-24T07:20:30Z INFO    run complete checks=3 up=3 down=0 alerts=0
+2026-10-24T07:20:31Z WARNING [demo] injecting fault: payments -> down
+2026-10-24T07:20:31Z INFO    check name="Web Frontend" status=200 latency_ms=4.49 result=UP
+2026-10-24T07:20:31Z WARNING check name="Payments API" status=503 latency_ms=4.02 result=DOWN error="Unexpected status 503 (expected [200])"
+2026-10-24T07:20:31Z INFO    check name="Auth Service" status=200 latency_ms=2.75 result=UP
+2026-10-24T07:20:31Z ERROR   alert severity=CRITICAL kind=DOWN endpoint="Payments API" msg="Payments API is DOWN: Unexpected status 503 (expected [200]) (status=503, 1 consecutive failed check(s))"
+2026-10-24T07:20:31Z WARNING alert severity=WARNING kind=UPTIME_LOW endpoint="Payments API" msg="Payments API uptime 92.31% over the last 13 checks is below the minimum of 95%"
+2026-10-24T07:20:31Z INFO    run complete checks=3 up=2 down=1 alerts=2
+2026-10-24T07:20:31Z INFO    check name="Web Frontend" status=200 latency_ms=8.59 result=UP
+2026-10-24T07:20:31Z WARNING check name="Payments API" status=503 latency_ms=11.13 result=DOWN error="Unexpected status 503 (expected [200])"
+2026-10-24T07:20:31Z INFO    check name="Auth Service" status=200 latency_ms=6.37 result=UP
+2026-10-24T07:20:31Z INFO    run complete checks=3 up=2 down=1 alerts=0
+2026-10-24T07:20:32Z INFO    check name="Web Frontend" status=200 latency_ms=6.31 result=UP
+2026-10-24T07:20:32Z WARNING check name="Payments API" status=503 latency_ms=4.07 result=DOWN error="Unexpected status 503 (expected [200])"
+2026-10-24T07:20:32Z INFO    check name="Auth Service" status=200 latency_ms=4.10 result=UP
+2026-10-24T07:20:32Z INFO    run complete checks=3 up=2 down=1 alerts=0
+2026-10-24T07:20:32Z INFO    check name="Web Frontend" status=200 latency_ms=4.71 result=UP
+2026-10-24T07:20:32Z WARNING check name="Payments API" status=503 latency_ms=5.18 result=DOWN error="Unexpected status 503 (expected [200])"
+2026-10-24T07:20:32Z INFO    check name="Auth Service" status=200 latency_ms=2.58 result=UP
+2026-10-24T07:20:32Z INFO    run complete checks=3 up=2 down=1 alerts=0
+2026-10-24T07:20:33Z INFO    check name="Web Frontend" status=200 latency_ms=7.47 result=UP
+2026-10-24T07:20:33Z WARNING check name="Payments API" status=503 latency_ms=6.26 result=DOWN error="Unexpected status 503 (expected [200])"
+2026-10-24T07:20:33Z INFO    check name="Auth Service" status=200 latency_ms=5.50 result=UP
+2026-10-24T07:20:33Z INFO    run complete checks=3 up=2 down=1 alerts=0
+2026-10-24T07:20:33Z INFO    check name="Web Frontend" status=200 latency_ms=5.30 result=UP
+2026-10-24T07:20:33Z WARNING check name="Payments API" status=503 latency_ms=4.45 result=DOWN error="Unexpected status 503 (expected [200])"
+2026-10-24T07:20:33Z INFO    check name="Auth Service" status=200 latency_ms=3.32 result=UP
+2026-10-24T07:20:33Z INFO    run complete checks=3 up=2 down=1 alerts=0
+2026-10-24T07:20:34Z INFO    check name="Web Frontend" status=200 latency_ms=5.38 result=UP
+2026-10-24T07:20:34Z WARNING check name="Payments API" status=503 latency_ms=4.49 result=DOWN error="Unexpected status 503 (expected [200])"
+2026-10-24T07:20:34Z INFO    check name="Auth Service" status=200 latency_ms=3.59 result=UP
+2026-10-24T07:20:34Z INFO    run complete checks=3 up=2 down=1 alerts=0
+2026-10-24T07:20:34Z INFO    check name="Web Frontend" status=200 latency_ms=4.90 result=UP
+2026-10-24T07:20:34Z WARNING check name="Payments API" status=503 latency_ms=3.07 result=DOWN error="Unexpected status 503 (expected [200])"
+2026-10-24T07:20:34Z INFO    check name="Auth Service" status=200 latency_ms=3.02 result=UP
+2026-10-24T07:20:34Z INFO    run complete checks=3 up=2 down=1 alerts=0
+2026-10-24T07:20:35Z INFO    [demo] fault cleared: payments
+2026-10-24T07:20:35Z INFO    check name="Web Frontend" status=200 latency_ms=7.19 result=UP
+2026-10-24T07:20:35Z INFO    check name="Payments API" status=200 latency_ms=6.43 result=UP
+2026-10-24T07:20:35Z INFO    check name="Auth Service" status=200 latency_ms=4.39 result=UP
+2026-10-24T07:20:35Z INFO    alert severity=RECOVERY kind=RECOVERED endpoint="Payments API" msg="Payments API is back UP after 4s of downtime (status=200, 6 ms)"
+2026-10-24T07:20:35Z INFO    run complete checks=3 up=3 down=0 alerts=1
+2026-10-24T07:20:35Z INFO    check name="Web Frontend" status=200 latency_ms=5.53 result=UP
+2026-10-24T07:20:35Z INFO    check name="Payments API" status=200 latency_ms=5.07 result=UP
+2026-10-24T07:20:35Z INFO    check name="Auth Service" status=200 latency_ms=4.11 result=UP
+2026-10-24T07:20:35Z INFO    run complete checks=3 up=3 down=0 alerts=0
+2026-10-24T07:20:36Z INFO    check name="Web Frontend" status=200 latency_ms=5.02 result=UP
+2026-10-24T07:20:36Z INFO    check name="Payments API" status=200 latency_ms=3.26 result=UP
+2026-10-24T07:20:36Z INFO    check name="Auth Service" status=200 latency_ms=3.10 result=UP
+2026-10-24T07:20:36Z INFO    run complete checks=3 up=3 down=0 alerts=0
+2026-10-24T07:20:36Z WARNING [demo] injecting fault: auth -> slow 1000
+2026-10-24T07:20:37Z INFO    check name="Web Frontend" status=200 latency_ms=7.90 result=UP
+2026-10-24T07:20:37Z INFO    check name="Payments API" status=200 latency_ms=5.25 result=UP
+2026-10-24T07:20:37Z INFO    check name="Auth Service" status=200 latency_ms=1006.72 result=UP
+2026-10-24T07:20:37Z ERROR   alert severity=CRITICAL kind=SLOW_CRITICAL endpoint="Auth Service" msg="Auth Service latency 1007 ms exceeded the critical threshold of 800 ms"
+2026-10-24T07:20:38Z INFO    run complete checks=3 up=3 down=0 alerts=1
+2026-10-24T07:20:39Z INFO    check name="Web Frontend" status=200 latency_ms=9.09 result=UP
+2026-10-24T07:20:39Z INFO    check name="Payments API" status=200 latency_ms=7.24 result=UP
+2026-10-24T07:20:39Z INFO    check name="Auth Service" status=200 latency_ms=1005.50 result=UP
+2026-10-24T07:20:39Z INFO    run complete checks=3 up=3 down=0 alerts=0
+2026-10-24T07:20:41Z INFO    check name="Web Frontend" status=200 latency_ms=6.81 result=UP
+2026-10-24T07:20:41Z INFO    check name="Payments API" status=200 latency_ms=6.16 result=UP
+2026-10-24T07:20:41Z INFO    check name="Auth Service" status=200 latency_ms=1003.68 result=UP
+2026-10-24T07:20:41Z INFO    run complete checks=3 up=3 down=0 alerts=0
+2026-10-24T07:20:41Z INFO    [demo] fault cleared: auth
+2026-10-24T07:20:41Z INFO    check name="Web Frontend" status=200 latency_ms=5.10 result=UP
+2026-10-24T07:20:41Z INFO    check name="Payments API" status=200 latency_ms=3.79 result=UP
+2026-10-24T07:20:41Z INFO    check name="Auth Service" status=200 latency_ms=3.07 result=UP
+2026-10-24T07:20:41Z INFO    alert severity=RECOVERY kind=RECOVERED endpoint="Auth Service" msg="Auth Service latency back to normal (3 ms)"
+2026-10-24T07:20:41Z INFO    run complete checks=3 up=3 down=0 alerts=1
+2026-10-24T07:20:42Z INFO    check name="Web Frontend" status=200 latency_ms=7.02 result=UP
+2026-10-24T07:20:42Z INFO    check name="Payments API" status=200 latency_ms=7.68 result=UP
+2026-10-24T07:20:42Z INFO    check name="Auth Service" status=200 latency_ms=5.57 result=UP
+2026-10-24T07:20:42Z INFO    run complete checks=3 up=3 down=0 alerts=0
+2026-10-24T07:20:42Z INFO    check name="Web Frontend" status=200 latency_ms=5.84 result=UP
+2026-10-24T07:20:42Z INFO    check name="Payments API" status=200 latency_ms=6.60 result=UP
+2026-10-24T07:20:42Z INFO    check name="Auth Service" status=200 latency_ms=4.86 result=UP
+2026-10-24T07:20:42Z INFO    run complete checks=3 up=3 down=0 alerts=0
+2026-10-24T07:20:43Z WARNING [demo] injecting fault: web -> drop
+2026-10-24T07:20:43Z WARNING check name="Web Frontend" status=- latency_ms=4.30 result=DOWN error="ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+2026-10-24T07:20:43Z INFO    check name="Payments API" status=200 latency_ms=2.84 result=UP
+2026-10-24T07:20:43Z INFO    check name="Auth Service" status=200 latency_ms=2.61 result=UP
+2026-10-24T07:20:43Z ERROR   alert severity=CRITICAL kind=DOWN endpoint="Web Frontend" msg="Web Frontend is DOWN: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')) (status=n/a, 1 consecutive failed check(s))"
+2026-10-24T07:20:43Z INFO    run complete checks=3 up=2 down=1 alerts=1
+2026-10-24T07:20:43Z WARNING check name="Web Frontend" status=- latency_ms=4.44 result=DOWN error="ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+2026-10-24T07:20:43Z INFO    check name="Payments API" status=200 latency_ms=4.30 result=UP
+2026-10-24T07:20:43Z INFO    check name="Auth Service" status=200 latency_ms=2.88 result=UP
+2026-10-24T07:20:43Z WARNING alert severity=WARNING kind=UPTIME_LOW endpoint="Web Frontend" msg="Web Frontend uptime 93.55% over the last 31 checks is below the minimum of 95%"
+2026-10-24T07:20:43Z INFO    run complete checks=3 up=2 down=1 alerts=1
+2026-10-24T07:20:44Z WARNING check name="Web Frontend" status=- latency_ms=4.93 result=DOWN error="ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+2026-10-24T07:20:44Z INFO    check name="Payments API" status=200 latency_ms=5.26 result=UP
+2026-10-24T07:20:44Z INFO    check name="Auth Service" status=200 latency_ms=3.19 result=UP
+2026-10-24T07:20:44Z INFO    run complete checks=3 up=2 down=1 alerts=0
+2026-10-24T07:20:44Z WARNING check name="Web Frontend" status=- latency_ms=5.41 result=DOWN error="ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+2026-10-24T07:20:44Z INFO    check name="Payments API" status=200 latency_ms=6.58 result=UP
+2026-10-24T07:20:44Z INFO    check name="Auth Service" status=200 latency_ms=3.70 result=UP
+2026-10-24T07:20:44Z INFO    run complete checks=3 up=2 down=1 alerts=0
+2026-10-24T07:20:45Z INFO    [demo] fault cleared: web
+2026-10-24T07:20:45Z INFO    check name="Web Frontend" status=200 latency_ms=8.27 result=UP
+2026-10-24T07:20:45Z INFO    check name="Payments API" status=200 latency_ms=7.66 result=UP
+2026-10-24T07:20:45Z INFO    check name="Auth Service" status=200 latency_ms=4.45 result=UP
+2026-10-24T07:20:45Z INFO    alert severity=RECOVERY kind=RECOVERED endpoint="Web Frontend" msg="Web Frontend is back UP after 2s of downtime (status=200, 8 ms)"
+2026-10-24T07:20:45Z INFO    run complete checks=3 up=3 down=0 alerts=1
+2026-10-24T07:20:45Z INFO    check name="Web Frontend" status=200 latency_ms=7.37 result=UP
+2026-10-24T07:20:45Z INFO    check name="Payments API" status=200 latency_ms=6.23 result=UP
+2026-10-24T07:20:45Z INFO    check name="Auth Service" status=200 latency_ms=5.25 result=UP
+2026-10-24T07:20:45Z INFO    run complete checks=3 up=3 down=0 alerts=0
+2026-10-24T07:20:46Z INFO    check name="Web Frontend" status=200 latency_ms=6.59 result=UP
+2026-10-24T07:20:46Z INFO    check name="Payments API" status=200 latency_ms=5.13 result=UP
+2026-10-24T07:20:46Z INFO    check name="Auth Service" status=200 latency_ms=4.94 result=UP
+2026-10-24T07:20:46Z INFO    run complete checks=3 up=3 down=0 alerts=0
+2026-10-24T07:20:46Z INFO    check name="Web Frontend" status=200 latency_ms=6.10 result=UP
+2026-10-24T07:20:46Z INFO    check name="Payments API" status=200 latency_ms=6.58 result=UP
+2026-10-24T07:20:46Z INFO    check name="Auth Service" status=200 latency_ms=4.81 result=UP
+2026-10-24T07:20:46Z INFO    run complete checks=3 up=3 down=0 alerts=0
+2026-10-24T07:20:47Z INFO    check name="Web Frontend" status=200 latency_ms=5.00 result=UP
+2026-10-24T07:20:47Z INFO    check name="Payments API" status=200 latency_ms=3.12 result=UP
+2026-10-24T07:20:47Z INFO    check name="Auth Service" status=200 latency_ms=3.05 result=UP
+2026-10-24T07:20:47Z INFO    run complete checks=3 up=3 down=0 alerts=0
+2026-10-24T07:20:47Z INFO    check name="Web Frontend" status=200 latency_ms=5.08 result=UP
+2026-10-24T07:20:47Z INFO    check name="Payments API" status=200 latency_ms=3.89 result=UP
+2026-10-24T07:20:47Z INFO    check name="Auth Service" status=200 latency_ms=3.14 result=UP
+2026-10-24T07:20:47Z INFO    run complete checks=3 up=3 down=0 alerts=0
+2026-10-24T07:20:48Z INFO    check name="Web Frontend" status=200 latency_ms=4.46 result=UP
+2026-10-24T07:20:48Z INFO    check name="Payments API" status=200 latency_ms=3.86 result=UP
+2026-10-24T07:20:48Z INFO    check name="Auth Service" status=200 latency_ms=3.62 result=UP
+2026-10-24T07:20:48Z INFO    run complete checks=3 up=3 down=0 alerts=0
+2026-10-24T13:30:20Z INFO    check name="GitHub Website" status=200 latency_ms=1627.44 result=UP
+2026-10-24T13:30:20Z INFO    check name="GitHub API" status=200 latency_ms=1522.91 result=UP
+2026-10-24T13:30:20Z INFO    check name="Example Site" status=200 latency_ms=1359.25 result=UP
+2026-10-24T13:30:20Z WARNING alert severity=WARNING kind=SLOW_WARNING endpoint="GitHub Website" msg="GitHub Website latency 1627 ms exceeded the warning threshold of 800 ms"
+2026-10-24T13:30:20Z ERROR   alert severity=CRITICAL kind=SLOW_CRITICAL endpoint="GitHub API" msg="GitHub API latency 1523 ms exceeded the critical threshold of 1500 ms"
+2026-10-24T13:30:20Z WARNING alert severity=WARNING kind=SLOW_WARNING endpoint="Example Site" msg="Example Site latency 1359 ms exceeded the warning threshold of 800 ms"
+2026-10-24T13:30:20Z ERROR   alert delivery failed channel=webhook alert="[WARNING] GitHub Website: SLOW_WARNING" error="webhook URL not configured"
+2026-10-24T13:30:20Z ERROR   alert delivery failed channel=webhook alert="[CRITICAL] GitHub API: SLOW_CRITICAL" error="webhook URL not configured"
+2026-10-24T13:30:20Z ERROR   alert delivery failed channel=webhook alert="[WARNING] Example Site: SLOW_WARNING" error="webhook URL not configured"
+2026-10-24T13:30:20Z INFO    run complete checks=3 up=3 down=0 alerts=3
+2026-10-24T13:30:52Z INFO    monitoring 3 endpoint(s) every 300s - Ctrl+C to stop
+2026-10-24T13:30:54Z INFO    check name="GitHub Website" status=200 latency_ms=1874.20 result=UP
+2026-10-24T13:30:54Z INFO    check name="GitHub API" status=200 latency_ms=1807.37 result=UP
+2026-10-24T13:30:54Z INFO    check name="Example Site" status=200 latency_ms=1847.22 result=UP
+2026-10-24T13:30:54Z INFO    run complete checks=3 up=3 down=0 alerts=0
+2026-10-24T13:35:59Z INFO    check name="GitHub Website" status=200 latency_ms=6751.19 result=UP
+2026-10-24T13:35:59Z INFO    check name="GitHub API" status=200 latency_ms=4107.63 result=UP
+2026-10-24T13:35:59Z INFO    check name="Example Site" status=200 latency_ms=4342.09 result=UP
+2026-10-24T13:35:59Z ERROR   alert severity=CRITICAL kind=SLOW_CRITICAL endpoint="GitHub Website" msg="GitHub Website latency 6751 ms exceeded the critical threshold of 2000 ms"
+2026-10-24T13:35:59Z ERROR   alert severity=CRITICAL kind=SLOW_CRITICAL endpoint="Example Site" msg="Example Site latency 4342 ms exceeded the critical threshold of 2000 ms"
+2026-10-24T13:35:59Z ERROR   alert delivery failed channel=webhook alert="[CRITICAL] GitHub Website: SLOW_CRITICAL" error="webhook URL not configured"
+2026-10-24T13:35:59Z ERROR   alert delivery failed channel=webhook alert="[CRITICAL] Example Site: SLOW_CRITICAL" error="webhook URL not configured"
+2026-10-24T13:35:59Z INFO    run complete checks=3 up=3 down=0 alerts=2
+2026-10-24T13:40:55Z INFO    check name="GitHub Website" status=200 latency_ms=2898.08 result=UP
+2026-10-24T13:40:55Z INFO    check name="GitHub API" status=200 latency_ms=1843.27 result=UP
+2026-10-24T13:40:55Z INFO    check name="Example Site" status=200 latency_ms=1850.63 result=UP
+2026-10-24T13:40:55Z INFO    run complete checks=3 up=3 down=0 alerts=0
+2026-10-24T13:45:55Z INFO    check name="GitHub Website" status=200 latency_ms=2105.01 result=UP
+2026-10-24T13:45:55Z INFO    check name="GitHub API" status=200 latency_ms=1551.15 result=UP
+2026-10-24T13:45:55Z INFO    check name="Example Site" status=200 latency_ms=1782.77 result=UP
+2026-10-24T13:45:55Z INFO    run complete checks=3 up=3 down=0 alerts=0
+2026-10-24T13:51:04Z WARNING check name="GitHub Website" status=- latency_ms=10132.75 result=DOWN error="ConnectionError: HTTPSConnectionPool(host='github.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError("HTTPSConnection(host='github.com', port=443): Failed to establish a new connection:..."
+2026-10-24T13:51:04Z WARNING check name="GitHub API" status=- latency_ms=11817.83 result=DOWN error="ConnectionError: HTTPSConnectionPool(host='api.github.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPSConnection(host='api.github.com', port=443): Failed to resolve 'api.githu..."
+2026-10-24T13:51:04Z WARNING check name="Example Site" status=- latency_ms=10117.36 result=DOWN error="ConnectionError: HTTPSConnectionPool(host='example.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError("HTTPSConnection(host='example.com', port=443): Failed to establish a new connectio..."
+2026-10-24T13:51:04Z ERROR   alert severity=CRITICAL kind=DOWN endpoint="GitHub Website" msg="GitHub Website is DOWN: ConnectionError: HTTPSConnectionPool(host='github.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError("HTTPSConnection(host='github.com', port=443): Failed to establish a new connection:... (status=n/a, 1 consecutive failed check(s))"
+2026-10-24T13:51:04Z ERROR   alert severity=CRITICAL kind=DOWN endpoint="GitHub API" msg="GitHub API is DOWN: ConnectionError: HTTPSConnectionPool(host='api.github.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPSConnection(host='api.github.com', port=443): Failed to resolve 'api.githu... (status=n/a, 1 consecutive failed check(s))"
+2026-10-24T13:51:04Z ERROR   alert severity=CRITICAL kind=DOWN endpoint="Example Site" msg="Example Site is DOWN: ConnectionError: HTTPSConnectionPool(host='example.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError("HTTPSConnection(host='example.com', port=443): Failed to establish a new connectio... (status=n/a, 1 consecutive failed check(s))"
+2026-10-24T13:51:04Z ERROR   alert delivery failed channel=webhook alert="[CRITICAL] GitHub Website: DOWN" error="webhook URL not configured"
+2026-10-24T13:51:04Z ERROR   alert delivery failed channel=webhook alert="[CRITICAL] GitHub API: DOWN" error="webhook URL not configured"
+2026-10-24T13:51:04Z ERROR   alert delivery failed channel=webhook alert="[CRITICAL] Example Site: DOWN" error="webhook URL not configured"
+2026-10-24T13:51:04Z INFO    run complete checks=3 up=0 down=3 alerts=3

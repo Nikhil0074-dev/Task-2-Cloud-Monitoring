@@ -1,0 +1,168 @@
+[
+  {
+    "text": "🟡 *[WARNING] Auth Service: SLOW_WARNING*\nAuth Service latency 403 ms exceeded the warning threshold of 300 ms\n<http://127.0.0.1:32843/svc/auth>",
+    "content": "🟡 *[WARNING] Auth Service: SLOW_WARNING*\nAuth Service latency 403 ms exceeded the warning threshold of 300 ms\n<http://127.0.0.1:32843/svc/auth>",
+    "alert": {
+      "severity": "WARNING",
+      "kind": "SLOW_WARNING",
+      "endpoint": "Auth Service",
+      "url": "http://127.0.0.1:32843/svc/auth",
+      "message": "Auth Service latency 403 ms exceeded the warning threshold of 300 ms",
+      "timestamp": "2026-10-24T07:20:28.472Z",
+      "details": {
+        "latency_ms": 402.77,
+        "threshold_ms": 300
+      }
+    }
+  },
+  {
+    "text": "🟢 *[RECOVERY] Auth Service: RECOVERED*\nAuth Service latency back to normal (3 ms)\n<http://127.0.0.1:32843/svc/auth>",
+    "content": "🟢 *[RECOVERY] Auth Service: RECOVERED*\nAuth Service latency back to normal (3 ms)\n<http://127.0.0.1:32843/svc/auth>",
+    "alert": {
+      "severity": "RECOVERY",
+      "kind": "RECOVERED",
+      "endpoint": "Auth Service",
+      "url": "http://127.0.0.1:32843/svc/auth",
+      "message": "Auth Service latency back to normal (3 ms)",
+      "timestamp": "2026-10-24T07:20:30.302Z",
+      "details": {
+        "latency_ms": 3.33
+      }
+    }
+  },
+  {
+    "text": "🔴 *[CRITICAL] Payments API: DOWN*\nPayments API is DOWN: Unexpected status 503 (expected [200]) (status=503, 1 consecutive failed check(s))\n<http://127.0.0.1:32843/svc/payments>",
+    "content": "🔴 *[CRITICAL] Payments API: DOWN*\nPayments API is DOWN: Unexpected status 503 (expected [200]) (status=503, 1 consecutive failed check(s))\n<http://127.0.0.1:32843/svc/payments>",
+    "alert": {
+      "severity": "CRITICAL",
+      "kind": "DOWN",
+      "endpoint": "Payments API",
+      "url": "http://127.0.0.1:32843/svc/payments",
+      "message": "Payments API is DOWN: Unexpected status 503 (expected [200]) (status=503, 1 consecutive failed check(s))",
+      "timestamp": "2026-10-24T07:20:31.332Z",
+      "details": {
+        "status_code": 503,
+        "error": "Unexpected status 503 (expected [200])",
+        "consecutive_failures": 1,
+        "latency_ms": 4.02
+      }
+    }
+  },
+  {
+    "text": "🟡 *[WARNING] Payments API: UPTIME_LOW*\nPayments API uptime 92.31% over the last 13 checks is below the minimum of 95%\n<http://127.0.0.1:32843/svc/payments>",
+    "content": "🟡 *[WARNING] Payments API: UPTIME_LOW*\nPayments API uptime 92.31% over the last 13 checks is below the minimum of 95%\n<http://127.0.0.1:32843/svc/payments>",
+    "alert": {
+      "severity": "WARNING",
+      "kind": "UPTIME_LOW",
+      "endpoint": "Payments API",
+      "url": "http://127.0.0.1:32843/svc/payments",
+      "message": "Payments API uptime 92.31% over the last 13 checks is below the minimum of 95%",
+      "timestamp": "2026-10-24T07:20:31.332Z",
+      "details": {
+        "uptime_percent": 92.31,
+        "window": 13,
+        "threshold_percent": 95
+      }
+    }
+  },
+  {
+    "text": "🟢 *[RECOVERY] Payments API: RECOVERED*\nPayments API is back UP after 4s of downtime (status=200, 6 ms)\n<http://127.0.0.1:32843/svc/payments>",
+    "content": "🟢 *[RECOVERY] Payments API: RECOVERED*\nPayments API is back UP after 4s of downtime (status=200, 6 ms)\n<http://127.0.0.1:32843/svc/payments>",
+    "alert": {
+      "severity": "RECOVERY",
+      "kind": "RECOVERED",
+      "endpoint": "Payments API",
+      "url": "http://127.0.0.1:32843/svc/payments",
+      "message": "Payments API is back UP after 4s of downtime (status=200, 6 ms)",
+      "timestamp": "2026-10-24T07:20:35.439Z",
+      "details": {
+        "downtime_seconds": 4.107,
+        "status_code": 200,
+        "latency_ms": 6.43
+      }
+    }
+  },
+  {
+    "text": "🔴 *[CRITICAL] Auth Service: SLOW_CRITICAL*\nAuth Service latency 1007 ms exceeded the critical threshold of 800 ms\n<http://127.0.0.1:32843/svc/auth>",
+    "content": "🔴 *[CRITICAL] Auth Service: SLOW_CRITICAL*\nAuth Service latency 1007 ms exceeded the critical threshold of 800 ms\n<http://127.0.0.1:32843/svc/auth>",
+    "alert": {
+      "severity": "CRITICAL",
+      "kind": "SLOW_CRITICAL",
+      "endpoint": "Auth Service",
+      "url": "http://127.0.0.1:32843/svc/auth",
+      "message": "Auth Service latency 1007 ms exceeded the critical threshold of 800 ms",
+      "timestamp": "2026-10-24T07:20:36.986Z",
+      "details": {
+        "latency_ms": 1006.72,
+        "threshold_ms": 800
+      }
+    }
+  },
+  {
+    "text": "🟢 *[RECOVERY] Auth Service: RECOVERED*\nAuth Service latency back to normal (3 ms)\n<http://127.0.0.1:32843/svc/auth>",
+    "content": "🟢 *[RECOVERY] Auth Service: RECOVERED*\nAuth Service latency back to normal (3 ms)\n<http://127.0.0.1:32843/svc/auth>",
+    "alert": {
+      "severity": "RECOVERY",
+      "kind": "RECOVERED",
+      "endpoint": "Auth Service",
+      "url": "http://127.0.0.1:32843/svc/auth",
+      "message": "Auth Service latency back to normal (3 ms)",
+      "timestamp": "2026-10-24T07:20:41.535Z",
+      "details": {
+        "latency_ms": 3.07
+      }
+    }
+  },
+  {
+    "text": "🔴 *[CRITICAL] Web Frontend: DOWN*\nWeb Frontend is DOWN: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')) (status=n/a, 1 consecutive failed check(s))\n<http://127.0.0.1:32843/svc/web>",
+    "content": "🔴 *[CRITICAL] Web Frontend: DOWN*\nWeb Frontend is DOWN: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')) (status=n/a, 1 consecutive failed check(s))\n<http://127.0.0.1:32843/svc/web>",
+    "alert": {
+      "severity": "CRITICAL",
+      "kind": "DOWN",
+      "endpoint": "Web Frontend",
+      "url": "http://127.0.0.1:32843/svc/web",
+      "message": "Web Frontend is DOWN: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')) (status=n/a, 1 consecutive failed check(s))",
+      "timestamp": "2026-10-24T07:20:43.082Z",
+      "details": {
+        "status_code": null,
+        "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+        "consecutive_failures": 1,
+        "latency_ms": 4.3
+      }
+    }
+  },
+  {
+    "text": "🟡 *[WARNING] Web Frontend: UPTIME_LOW*\nWeb Frontend uptime 93.55% over the last 31 checks is below the minimum of 95%\n<http://127.0.0.1:32843/svc/web>",
+    "content": "🟡 *[WARNING] Web Frontend: UPTIME_LOW*\nWeb Frontend uptime 93.55% over the last 31 checks is below the minimum of 95%\n<http://127.0.0.1:32843/svc/web>",
+    "alert": {
+      "severity": "WARNING",
+      "kind": "UPTIME_LOW",
+      "endpoint": "Web Frontend",
+      "url": "http://127.0.0.1:32843/svc/web",
+      "message": "Web Frontend uptime 93.55% over the last 31 checks is below the minimum of 95%",
+      "timestamp": "2026-10-24T07:20:43.595Z",
+      "details": {
+        "uptime_percent": 93.55,
+        "window": 31,
+        "threshold_percent": 95
+      }
+    }
+  },
+  {
+    "text": "🟢 *[RECOVERY] Web Frontend: RECOVERED*\nWeb Frontend is back UP after 2s of downtime (status=200, 8 ms)\n<http://127.0.0.1:32843/svc/web>",
+    "content": "🟢 *[RECOVERY] Web Frontend: RECOVERED*\nWeb Frontend is back UP after 2s of downtime (status=200, 8 ms)\n<http://127.0.0.1:32843/svc/web>",
+    "alert": {
+      "severity": "RECOVERY",
+      "kind": "RECOVERED",
+      "endpoint": "Web Frontend",
+      "url": "http://127.0.0.1:32843/svc/web",
+      "message": "Web Frontend is back UP after 2s of downtime (status=200, 8 ms)",
+      "timestamp": "2026-10-24T07:20:45.135Z",
+      "details": {
+        "downtime_seconds": 2.053,
+        "status_code": 200,
+        "latency_ms": 8.27
+      }
+    }
+  }
+]
